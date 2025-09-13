@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* implementing dark mode using invert filter */
 .fake-dark-mode {
   filter: invert(100%);
   transition: all 0.5s;
